@@ -1,0 +1,56 @@
+@use 'reset';
+@use 'vars';
+*{
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Acme",sans-serif;
+  width: 100vw;
+  background-color: wheat;
+  color: black ;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+#links{
+  margin-bottom: 2rem;
+}
+a{
+  margin: 0.1rem;
+  text-decoration: none;
+  color: blue;
+}
+a:hover {
+  text-decoration: underline;
+}
+h1{
+  margin-bottom: 1rem;
+}
+#transcript {
+  margin-bottom: 1rem;
+  font-size: 1.5rem;
+}
+button {
+  background-color: aqua;
+  color: antiquewhite;
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 0.25rem;
+}
+button:hover{
+  background-color: aqua;
+  cursor: pointer;
+}
+/* 
+  // or you can import your own font
+  @font-face {
+    font-family: 'Roboto';
+    src: url('../assets/fonts/Roboto-Regular.ttf');
+  }
+
+  body {
+    font-family: 'Roboto', sans-serif;
+  }
+*/
